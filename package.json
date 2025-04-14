@@ -1,10 +1,10 @@
 {
-  "name": "vfy-gas-price-calculator",
+  "name": "relayer-fe-vfy-cost-converter",
   "version": "1.0.0",
-  "description": "Calculate VFY token prices based on EVM gas units",
+  "description": "Calculate relayee fee in Vfy tokens denomination",
   "main": "calculateVfyGasPrice.js",
   "scripts": {
-    "start": "node calculateVfyGasPrice.js"
+    "start": "node relayerFeeVfyCostConverter.js"
   },
   "dependencies": {
     "alchemy-sdk": "^2.11.0",
