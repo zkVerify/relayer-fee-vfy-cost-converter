@@ -96,8 +96,8 @@ if (require.main === module) {
     const args = process.argv.slice(2);
 
     if (args.length !== 3) {
-        console.error("Usage: node calculateVfyGasPrice.js <PROOF_VERIFICATION_COST> <MESSAGE_EXECUTION_COST> <NETWORK>");
-        console.error("Example: node calculateVfyGasPrice.js 150000 63385 eth-sepolia");
+        console.error("Usage: node relayerFeeVfyCostConverter.js <PROOF_VERIFICATION_COST> <MESSAGE_EXECUTION_COST> <NETWORK>");
+        console.error("Example: node relayerFeeVfyCostConverter.js 150000 63385 eth-sepolia");
         console.error("\nAvailable networks:");
         console.error(Object.keys(AVAILABLE_NETWORKS).join('\n'));
         process.exit(1);
