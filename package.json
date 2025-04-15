@@ -1,0 +1,14 @@
+{
+  "name": "vfy-gas-price-calculator",
+  "version": "1.0.0",
+  "description": "Calculate VFY token prices based on EVM gas units",
+  "main": "calculateVfyGasPrice.js",
+  "scripts": {
+    "start": "node calculateVfyGasPrice.js"
+  },
+  "dependencies": {
+    "alchemy-sdk": "^2.11.0",
+    "dotenv": "^16.4.7",
+    "ethers": "^5.7.2"
+  }
+}
